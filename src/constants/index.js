@@ -241,7 +241,7 @@ const projects = [
       },
     ],
     image: SocialMediaClone,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Phyo-Alpha/Social-Media-Clone",
   },
   {
     name: "Trip Guide",
