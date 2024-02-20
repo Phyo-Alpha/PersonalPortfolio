@@ -41,8 +41,11 @@ npm start
 - Add the following environment variables to the file:
 
 ```bash
-VITE_APP_EMAILJS_PUBLIC_KEY="hC9RoEO4ZRBe1Mt3-"
-VITE_APP_EMAILJS_SERVICE_ID="service_8uqwr5b"
-VITE_APP_EMAILJS_TEMPLATE_ID="template_s710y2o"
+VITE_APP_EMAILJS_PUBLIC_KEY=YourEmailJSPublicKey
+VITE_APP_EMAILJS_SERVICE_ID=YourEmailJSServiceID
+VITE_APP_EMAILJS_TEMPLATE_ID=YourEmailJSTemplateID
 ```
+
+- You can obtain these values by signing up for an account at [EmailJS](https://www.emailjs.com/)
+
 - The site will be available at `http://localhost:5173`
