@@ -49,9 +49,12 @@ const About = () => {
       >
         I'm a skilled software developer with experience in Python, TypeScript
         and JavaScript, and expertise in frameworks like React, Django, and Fast
-        api. I'm a quick learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let's work together to bring your ideas to life!
+        api and Python frameworks for Data Analysis like Pandas, Numpy, Scipy
+        and Matplot. I'm a quick learner and passionate about learning new
+        technologies and latest development in the tech industry. Currently, I
+        am learning about the wonder of Aritifical intelligence and Machine
+        Learning to create a social media platform that employ emotion analysis
+        to lessen the toxicity of social media.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

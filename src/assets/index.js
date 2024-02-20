@@ -27,10 +27,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import analysis from "./company/analysis.png";
+import kaggle from "./company/kaggle.png";
+import social from "./company/social.png";
+import dashboard from "./company/dashboard.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import real_estate from "./real_estate.png";
 import Admindashboard from "./Admindashboard.png";
 import SocialMediaClone from "./SocialMediaClone.png";
 
@@ -62,9 +66,13 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
   python,
   django,
   Admindashboard,
   SocialMediaClone,
+  analysis,
+  kaggle,
+  social,
+  dashboard,
+  real_estate,
 };
