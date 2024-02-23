@@ -2,6 +2,8 @@
 
 This repository contains the source code for my personal portfolio site.
 
+Live demo at : https://personalportfolio-jrqx.onrender.com/
+
 ## Built With
 
 - [React.js](https://reactjs.org/)
@@ -25,6 +27,7 @@ git clone https://github.com/yourusername/your-repo-name.git
 ```
 
 2. Install the dependencies:
+
 ```bash
 npm install
 ```
@@ -47,5 +50,4 @@ VITE_APP_EMAILJS_TEMPLATE_ID=YourEmailJSTemplateID
 ```
 
 - You can obtain these values by signing up for an account at [EmailJS](https://www.emailjs.com/)
-
 - The site will be available at `http://localhost:5173`
