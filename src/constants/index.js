@@ -25,6 +25,8 @@ import {
   social,
   dashboard,
   real_estate,
+  cinema,
+  CinemaManagement
 } from "../assets";
 
 export const navLinks = [
@@ -118,6 +120,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Cinema Management Sytem",
+    company_name: "Full Stack Application",
+    icon: cinema,
+    iconBg: "#383E56",
+    date: "Apr 2023 - May 2023",
+    points: [
+      "Developed a cinema web application where users can book tickets to watch their favourites movies.",
+      "Implemented a sepearate tabs for admin and manager to manage the website.",
+      "Tech-Stack : HTML5, CSS3, Javascript, Django and SQLite"
+    ],
+  },
+  {
     title: "Reports on Sea level rising",
     company_name: "Data Visualization",
     icon: analysis,
@@ -200,6 +214,35 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Cinema Management System",
+    description:
+      "Web application where users can book tickets to watch their favourites movies, as well as admin dashboard to manage the website and manager can manage the movies and shows.",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQLite",
+        color: "green-text-gradient",
+      },
+    ],
+    image: CinemaManagement,
+    source_code_link: "https://github.com/Phyo-Alpha/CinemaBookingSystem",
+  },
   {
     name: "Enterprise Admin Dashboard",
     description:

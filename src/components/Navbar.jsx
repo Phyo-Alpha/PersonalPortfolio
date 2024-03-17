@@ -53,6 +53,12 @@ const Navbar = () => {
           </p>
         </Link>
 
+        <button className="bg-transparent hover:bg-purple-1 text-purple-1 font-semibold hover:text-white py-2 px-4 border border-purple-1 hover:border-transparent rounded">
+          <a href="/EdwardPhyoFrontEnd.pdf" download>
+            Download Resume
+          </a>
+        </button>
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li

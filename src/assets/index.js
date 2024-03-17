@@ -31,12 +31,14 @@ import analysis from "./company/analysis.png";
 import kaggle from "./company/kaggle.png";
 import social from "./company/social.png";
 import dashboard from "./company/dashboard.png";
+import cinema from "./company/cinema.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import real_estate from "./real_estate.png";
 import Admindashboard from "./Admindashboard.png";
 import SocialMediaClone from "./SocialMediaClone.png";
+import CinemaManagement from "./cinemasystem.png"
 
 export {
   logo,
@@ -75,4 +77,6 @@ export {
   social,
   dashboard,
   real_estate,
+  CinemaManagement,
+  cinema,
 };
