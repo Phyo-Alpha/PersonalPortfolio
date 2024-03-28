@@ -184,6 +184,19 @@ const experiences = [
       "Integrated GraphQL for efficient data fetching and manipulation.",
     ],
   },
+  {
+    title: "Event Organizer Application",
+    company_name: "Event Management Application",
+    icon: dashboard,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developed a web-based event organization and management application that allows user to create, manage and monitor the events.",
+      "Based using React, TypeScript, and Tailwind CSS as well as Shadcn for UI components.",
+      "Implemented using MERN stack with Next.js for server side rendering.",
+      "Use Clerk for user authentication and authorization.",
+    ],
+  }
 ];
 
 const testimonials = [
@@ -313,6 +326,35 @@ const projects = [
     ],
     image: real_estate,
     source_code_link: "https://www.kaggle.com/code/theobsidiangaming/house-price-predictions-with-eda",
+  },
+  {
+    name: "Event Organizer Application",
+    description:
+      "Web-based event organization and management application that allows user to create, manage and monitor the events. Based using React, TypeScript, and Tailwind CSS as well as Shadcn for UI components.",
+    tags: [
+      {
+        name: "React-Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MERN stack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+    ],
+    image: SocialMediaClone,
+    source_code_link: "https://github.com/Phyo-Alpha/Social-Media-Clone",
   },
 ];
 
