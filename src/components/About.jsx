@@ -47,14 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Python, TypeScript
-        and JavaScript, and expertise in frameworks like React, Django, and Fast
-        api and Python frameworks for Data Analysis like Pandas, Numpy, Scipy
-        and Matplot. I'm a quick learner and passionate about learning new
-        technologies and latest development in the tech industry. Currently, I
-        am learning about the wonder of Aritifical intelligence and Machine
-        Learning to create a social media platform that employ emotion analysis
-        to lessen the toxicity of social media.
+        I'm a experienced software developer with a passion for building
+        modern-looking, responsive, and user friendly web applications. I have a
+        deep knowledge of JS frameworks such as React, Next.js and building
+        cross-platform apps using Expo and React Native. I am also proficient in
+        building web-templates using wordpress and PHP.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

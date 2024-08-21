@@ -8,9 +8,7 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
   mongodb,
   git,
   figma,
@@ -20,13 +18,12 @@ import {
   django,
   Admindashboard,
   SocialMediaClone,
-  analysis,
-  kaggle,
-  social,
-  dashboard,
   real_estate,
-  cinema,
-  CinemaManagement
+  CinemaManagement,
+  Evently,
+  studio20,
+  syl,
+  spl,
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +47,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Software Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
   {
@@ -58,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Data Analysist",
+    title: "Software Developer",
     icon: creator,
   },
 ];
@@ -120,83 +117,19 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Cinema Management Sytem",
-    company_name: "Full Stack Application",
-    icon: cinema,
+    title: "Front end Developer",
+    company_name: "Studio20",
+    icon: studio20,
     iconBg: "#383E56",
-    date: "Apr 2023 - May 2023",
+    date: `Apr 2024 – Present • 6 months`,
     points: [
-      "Developed a cinema web application where users can book tickets to watch their favourites movies.",
-      "Implemented a sepearate tabs for admin and manager to manage the website.",
-      "Tech-Stack : HTML5, CSS3, Javascript, Django and SQLite"
+      "Developed full-stack websites and application for notable company and organizations such as FAS and CKP",
+      "Boosted web traffic to SYL by 11% by developing and implementing various features in SYL, which include League Fixtures and Standings Tab, Announcement Section, Academy Accreditation System (AAS) pages and Blog using WordPress PHP",
+      "Implemented enterprise level financial transaction app for CKP Partner group by leveraging latest technologies in web development such as cross-platform development, server-side rendering, etc",
+      "Implemented tech solutions such as Google Analytics and Ads to websites such as Syspex to help with    gathering data for customer segmentation.",
+      "Designed and Created UI components and business logics in websites such as SPL, Ckpartner",
     ],
   },
-  {
-    title: "Reports on Sea level rising",
-    company_name: "Data Visualization",
-    icon: analysis,
-    iconBg: "#383E56",
-    date: "Aug 2023 - Sep 2023",
-    points: [
-      "Created a narrative on rising sea level to warm the dangers of flooding in coastal areas.",
-      "Visualized the threat of flooding in before and aftermath pictures of countries that are most affected by it.",
-      "Explore the dangers of rising sea levels by using various datasets related to sea level rise.",
-      "Created Extensive Visualizations of sea level trend and its relation to greenhouse gas emissions.",
-      "Link : https://phyyyopyaesome.wixsite.com/sealevelaware."
-    ],
-  },
-  {
-    title: "House Price Prediction",
-    company_name: "Kaggle Project",
-    icon: kaggle,
-    iconBg: "#E6DEDD",
-    date: "Sep 2023",
-    points: [
-      "Handled missing data, encoded object datatype, and scaled features for data preprocessing.",
-      "Conducted in-depth analysis of house prices using Python and pandas.",
-      "Used scatter plots for outlier detection and distribution charts for price trend analysis.",
-      "Developed an XGBoost regression model for house price prediction.",
-      "https://www.kaggle.com/code/theobsidiangaming",
-    ],
-  },
-  {
-    title: "Social Media Application",
-    company_name: "Full Stack Application",
-    icon: social,
-    iconBg: "#383E56",
-    date: "Oct 2023",
-    points: [
-      "Developed a social media application using React.js, TypeScript, and Tailwind CSS.",
-      "Uses Appwrite, a backend service, to handle user authentication, data storage, and real-time communication.",
-      "Implemented responsive design for all devices and ensured cross-browser compatibility.",
-    ],
-  },
-  {
-    title: "Enterprise Admin Dashboard",
-    company_name: "Dashboard Application",
-    icon: dashboard,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developed a web-based platform that allows the enterprises development team to keep track off contracts, tasks using kanban board as well as monitor the events using in-app events planner and tracker.",
-      "Implemented Using Refine Framework which allows developer to easily develop B2B admin dashboard.",
-      "Build using React, TypeScript, and Tailwind CSS.",
-      "Integrated GraphQL for efficient data fetching and manipulation.",
-    ],
-  },
-  {
-    title: "Event Organizer Application",
-    company_name: "Event Management Application",
-    icon: dashboard,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developed a web-based event organization and management application that allows user to create, manage and monitor the events.",
-      "Based using React, TypeScript, and Tailwind CSS as well as Shadcn for UI components.",
-      "Implemented using MERN stack with Next.js for server side rendering.",
-      "Use Clerk for user authentication and authorization.",
-    ],
-  }
 ];
 
 const testimonials = [
@@ -228,6 +161,32 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Singapore Youth Leagues (SYL)",
+    description:
+      "Web application that provides a platform to views the current standings, fixtures, and match results of Singapore's youth leagues. It was built using wordpress PHP. I added most of the new features to the website such as League Fixtures and Standings Tab, Announcement Section, Academy Accreditation System (AAS) pages and Blog using WordPress PHP.",
+    tags: [
+      {
+        name: "Wordpress PHP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: syl,
+    source_code_link: "https://syl.sg",
+  },
+  {
+    name: "Singapore Premier Leagues (SPL)",
+    description:
+      "Web application that provides a platform to views the current standings, fixtures, and match results of Singapore's premier. I designed and created the UI components and business logics for fixtures and standings tab for the website.",
+    tags: [
+      {
+        name: "Wordpress PHP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spl,
+    source_code_link: "https://spl.sg",
+  },
+  {
     name: "Cinema Management System",
     description:
       "Web application where users can book tickets to watch their favourites movies, as well as admin dashboard to manage the website and manager can manage the movies and shows.",
@@ -257,27 +216,6 @@ const projects = [
     source_code_link: "https://github.com/Phyo-Alpha/CinemaBookingSystem",
   },
   {
-    name: "Enterprise Admin Dashboard",
-    description:
-      "Web-based platform that allows the enterprises development team to keep track off contracts, tasks using kanban board as well as monitor the events using in-app events planner and tracker..",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Refine framework",
-        color: "green-text-gradient",
-      },
-      {
-        name: "graphql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Admindashboard,
-    source_code_link: "https://github.com/Phyo-Alpha/Admin-Dashboard",
-  },
-  {
     name: "Social Media App",
     description:
       "A simple social media app that allows users to post their thoughts and share their likes, comments, and follows other users. This app is built with Appwrite, a backend as a service platform.",
@@ -297,35 +235,6 @@ const projects = [
     ],
     image: SocialMediaClone,
     source_code_link: "https://github.com/Phyo-Alpha/Social-Media-Clone",
-  },
-  {
-    name: "House Price Prediction Model",
-    description:
-      "A machine learning model that predicts house prices using XGBoost regression model. This project is part of the Kaggle open-sourced competition.",
-    tags: [
-      {
-        name: "Numpy",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Pandas",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Scipy",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Seaborn",
-        color: "green-text-gradient",
-      },
-      {
-        name: "XGBoost",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: real_estate,
-    source_code_link: "https://www.kaggle.com/code/theobsidiangaming/house-price-predictions-with-eda",
   },
   {
     name: "Event Organizer Application",
@@ -353,8 +262,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: SocialMediaClone,
-    source_code_link: "https://github.com/Phyo-Alpha/Social-Media-Clone",
+    image: Evently,
+    source_code_link: "https://github.com/Phyo-Alpha/Event-organize-platform",
   },
 ];
 
