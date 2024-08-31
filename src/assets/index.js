@@ -43,7 +43,11 @@ import Evently from "./evently.png";
 
 import syl from "./syl.webp";
 import spl from "./spl.png";
+import ckp_website from "./ckpartners.png";
+import ckp_dashboard from "./ckp_dashboard.png";
+import syspex from "./syspex.png";
 import studio20 from "./company/studio20.jpeg";
+import google from "./google.png";
 
 export {
   logo,
@@ -88,4 +92,8 @@ export {
   Evently,
   syl,
   spl,
+  ckp_dashboard,
+  ckp_website,
+  syspex,
+  google,
 };

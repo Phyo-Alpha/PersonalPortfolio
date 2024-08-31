@@ -24,6 +24,9 @@ import {
   studio20,
   syl,
   spl,
+  ckp_website,
+  ckp_dashboard,
+  syspex,
 } from "../assets";
 
 export const navLinks = [
@@ -185,6 +188,81 @@ const projects = [
     ],
     image: spl,
     source_code_link: "https://spl.sg",
+  },
+  {
+    name: "CKP partner group website",
+    description:
+      "A static website for CKP partner group to showcase their brand, products and services as well as a contact from clients to contact them. It was built using React Js with Next.js.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ckp_website,
+    source_code_link: "https://www.ckpartners.com.my/home",
+  },
+  {
+    name: "CKP Finance Transaction app",
+    description:
+      "A dashboard application still-in-development,  created to facilitate the finance transactions between the CKP clients, with the group acting as a middleman in the exchange. The dashboard is built for all the CKP clients and the CKP partners, to monitor, create and facilitate the invoices exchange. It is built using latest Technologies in data fetching and real-time updates, using libraries like Tanstack Query, Tanstack Router with React, Next.js and Postgres.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostGres SQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tanstack Query",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tanstack Router",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ckp_dashboard,
+    source_code_link: "",
+  },
+  {
+    name: "Syspex Substainable Packaging",
+    description:
+      "A full-stack web application made for Syspex logistics company to sell their stored hardwares and products from various company to potentials buyers. The website was built using Wordpress PHP, with tailwind CSS for styling and JQuery and Ajax for data fetching.",
+    tags: [
+      {
+        name: "Wordpress PHP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JQuery",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Ajax",
+        color: "green-text-gradient",
+      },
+    ],
+    image: syspex,
+    source_code_link: "https://www.syspex.com",
   },
   {
     name: "Cinema Management System",
