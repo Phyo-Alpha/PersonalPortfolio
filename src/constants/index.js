@@ -124,7 +124,7 @@ const experiences = [
     company_name: "Studio20",
     icon: studio20,
     iconBg: "#383E56",
-    date: `Apr 2024 – Present • 6 months`,
+    date: `Dec 2023 – Present • 10 months`,
     points: [
       "Developed full-stack websites and application for notable company and organizations such as FAS and CKP",
       "Boosted web traffic to SYL by 11% by developing and implementing various features in SYL, which include League Fixtures and Standings Tab, Announcement Section, Academy Accreditation System (AAS) pages and Blog using WordPress PHP",
